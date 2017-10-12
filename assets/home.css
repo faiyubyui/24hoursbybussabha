@@ -1,41 +1,61 @@
 header .navbar-tabs {
   justify-content: center;
-  background-color: #f7c21c
+  color:#f7c21c;
+  background-color: #f7c21c;
+  margin-bottom: 0 !important;
+}
+
+header .logo {
+  background-color: #2d2d2d; 
+}
+
+header .logo img {
+  height: 60px;
+  width: auto;
+  padding: 10px;
 }
 
 .highlight {
   margin-bottom: 0 !important;
 }
-
 .highlight .highlight-item {
   height: 416px;
   background: url(/assets/images/home/banner/highlight.jpg) no-repeat center/cover;
-  color: #ffffff;
+  color:#ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.highlight .highlight-item h1 {
+  font-size: 50px;
+  font-family: prompt;
+}
 
 .highlight .highlight-item h1 {
-  font-size: 100px;
+  font-size: 50px;
 }
 
 .thumbnail {
   border-top: 0.1rem solid #ffffff;
 }
+<<<<<<< HEAD
 
 /*.thumbnail .thumbnail-item {
+=======
+.thumbnail .thumbnail-item {
+>>>>>>> e66992de25461583c8844ec99f6f534c7703d193
   border-right: 0.1rem solid #ffffff;
 }
-
 .thumbnail .thumbnail-item:last-child {
   border: none;
+<<<<<<< HEAD
 }*/
 
 .thumbnail .thumbnail-item + .thumbnail-item {
   border-left: 0.1rem solid #ffffff;
+=======
+>>>>>>> e66992de25461583c8844ec99f6f534c7703d193
 }
-
 .thumbnail .thumbnail-item {
   background-repeat: no-repeat;
   background-position: center;
@@ -45,9 +65,12 @@ header .navbar-tabs {
   justify-content: center;
   align-items: center;
   height: 10rem;
+<<<<<<< HEAD
 }
 
 
 .content {
   margin-top: 2rem;
+=======
+>>>>>>> e66992de25461583c8844ec99f6f534c7703d193
 }
