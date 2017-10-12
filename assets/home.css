@@ -1,47 +1,15 @@
 header .navbar-tabs {
   justify-content: center;
-  background-color: #f7c21c;
+  background-color: #f7c21c
 }
-<<<<<<< HEAD
 
-.highlight {
-  margin-bottom: 0 ! important;
-}
-.highlight .highlight-item {
-  height: 416px ;
-  background: url("/assets/images/home/banner/highlight.jpg") no-repeat center/cover;
-    color: #cd5c5c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
- .highlight .highlight-item h1 {
-  font-size: 70px;
-  font-family: Agency fb;
- }
-
- .thumbnail{
-  border-top: 0.1rem solid #ffffff;
- }
- .thumbnail .thumbnail-item {
-  border-right: .1rem solid #ffffff;
- }
-  .thumbnail .thumbnail-item:last-child {
-  border: none;
- }
- .thumbnail .thumbnail-item {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: #559354;
-=======
 .highlight {
   margin-bottom: 0 !important;
 }
 
-.highlight .highlight-item{
+.highlight .highlight-item {
   height: 416px;
-  background: url("/assets/images/home/banner/highlight.jpg") no-repeat center/cover;
+  background: url(/assets/images/home/banner/highlight.jpg) no-repeat center/cover;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -53,20 +21,19 @@ header .navbar-tabs {
 }
 
 .thumbnail {
-  border-top: 2px solid #ffffff; 
-  
+  border-top: 0.1rem solid #ffffff;
 }
 
-/*เป็นใส่เส้นทางฝั่งขวา
-.thumbnail .thumbnail-item {
-  border-right: 2px solid #ffffff;
+/*.thumbnail .thumbnail-item {
+  border-right: 0.1rem solid #ffffff;
 }
 
 .thumbnail .thumbnail-item:last-child {
-  border:none;
+  border: none;
 }*/
+
 .thumbnail .thumbnail-item + .thumbnail-item {
-  border-left:2px solid #ffffff;
+  border-left: 0.1rem solid #ffffff;
 }
 
 .thumbnail .thumbnail-item {
@@ -74,13 +41,13 @@ header .navbar-tabs {
   background-position: center;
   background-size: cover;
   color: #ffffff;
->>>>>>> c66caf38488db6eb5886e36af4879cc7d3116aad
   display: flex;
   justify-content: center;
   align-items: center;
   height: 10rem;
-<<<<<<< HEAD
- }
-=======
 }
->>>>>>> c66caf38488db6eb5886e36af4879cc7d3116aad
+
+
+.content {
+  margin-top: 2rem;
+}
