@@ -1,4 +1,16 @@
 header .navbar-tabs {
   justify-content: center;
-  background-color: #f7c21c
+  color:#f7c21c;
+  background-color: #f7c21c;
+  margin-bottom: 0 !important;
+}
+
+header .logo {
+  background-color: #2d2d2d; 
+}
+
+header .logo img {
+  height: 60px;
+  width: auto;
+  padding: 10px;
 }
