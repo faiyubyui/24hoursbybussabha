@@ -1,86 +1,56 @@
 header .navbar-tabs {
   justify-content: center;
+  color:#f7c21c;
   background-color: #f7c21c;
-}
-<<<<<<< HEAD
-
-.highlight {
-  margin-bottom: 0 ! important;
-}
-.highlight .highlight-item {
-  height: 416px ;
-  background: url("/assets/images/home/banner/highlight.jpg") no-repeat center/cover;
-    color: #cd5c5c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
- .highlight .highlight-item h1 {
-  font-size: 70px;
-  font-family: Agency fb;
- }
-
- .thumbnail{
-  border-top: 0.1rem solid #ffffff;
- }
- .thumbnail .thumbnail-item {
-  border-right: .1rem solid #ffffff;
- }
-  .thumbnail .thumbnail-item:last-child {
-  border: none;
- }
- .thumbnail .thumbnail-item {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: #559354;
-=======
-.highlight {
   margin-bottom: 0 !important;
 }
 
-.highlight .highlight-item{
+header .logo {
+  background-color: #2d2d2d; 
+}
+
+header .logo img {
+  height: 60px;
+  width: auto;
+  padding: 10px;
+}
+
+.highlight {
+  margin-bottom: 0 !important;
+}
+.highlight .highlight-item {
   height: 416px;
-  background: url("/assets/images/home/banner/highlight.jpg") no-repeat center/cover;
-  color: #ffffff;
+  background: url(/assets/images/home/banner/highlight.jpg) no-repeat center/cover;
+  color:#ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.highlight .highlight-item h1 {
+  font-size: 50px;
+  font-family: prompt;
+}
 
 .highlight .highlight-item h1 {
-  font-size: 100px;
+  font-size: 50px;
 }
 
 .thumbnail {
-  border-top: 2px solid #ffffff; 
-  
+  border-top: 0.1rem solid #ffffff;
 }
-
-/*เป็นใส่เส้นทางฝั่งขวา
 .thumbnail .thumbnail-item {
-  border-right: 2px solid #ffffff;
+  border-right: 0.1rem solid #ffffff;
 }
-
 .thumbnail .thumbnail-item:last-child {
-  border:none;
-}*/
-.thumbnail .thumbnail-item + .thumbnail-item {
-  border-left:2px solid #ffffff;
+  border: none;
 }
-
 .thumbnail .thumbnail-item {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: #ffffff;
->>>>>>> c66caf38488db6eb5886e36af4879cc7d3116aad
   display: flex;
   justify-content: center;
   align-items: center;
   height: 10rem;
-<<<<<<< HEAD
- }
-=======
 }
->>>>>>> c66caf38488db6eb5886e36af4879cc7d3116aad
